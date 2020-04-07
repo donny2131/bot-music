@@ -24,7 +24,7 @@ client.on('ready', () => {
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(``,"http://twitch.tv/S-F")
-client.user.setStatus("dnd")
+client.user.setStatus("idle")
 });
 
 
